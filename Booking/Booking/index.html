@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Booking.com</title>
+    <link rel="stylesheet" href="css/booking.css" type="text/css" />
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img src="img/logo.png" id="logo" />
+                <button type="submit" id="signin" class="submit">Sign in</button> 
+                <button type="submit" id="register" class="submit">Register</button>
+        </div>
+    </header>
+    <div>
+        <form method="post" action="login.php">
+            <label for="username">
+                Username:
+                <input type="text" name="username" id="username" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{8,20}$" required="required" />
+            </label>
+            <label for="password">
+                Password:
+                <input type="password" name="password" id="password" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+            </label>
+            <button type="submit">Sign in</button>
+        </form>
+    </div>
+    <div class="navigationBar">
+        <nav id="firstbar">
+            <a href="accomodation.html">Accomodations</a>
+            <a href="accomodation.html">Flights</a>
+            <a href="accomodation.html">Rental Cars</a>
+            <a href="accomodation.html">Airport Taxis</a>
+            <a href="accomodation.html">ARestaurants</a>
+        </nav>
+    </div>
+    <div>
+        <nav id="secodbar">
+            <a href="accomodation.html">Find Deals</a>
+            <a href="accomodation.html">Travel Guides</a>
+            <a href="accomodation.html">How was your stay?</a>
+            <a href="accomodation.html">Vacation Rentals</a>
+            <a href="accomodation.html">Booking.com for Business</a>
+            <a href="accomodation.html">Booking.com for iPhone & Android</a>
+        </nav>
+    </div>
+    <div class="checkDate">
+        <h2><img src="img/lente.png" id="lente" /> Find Deals for Any Season</h2>
+        <p>From cozy country homes to funky city aparments</p>
+        <form>
+            Destination, propery name or address:<br />
+            <input type="text" name="places" value="" placeholder="More places than you could ever go (but you can try!)" /><br />
+            Check-in
+            <input type="text" name="checkin" id="datepicker1" />
+            Check-out
+            <input type="text" name="checkin" id="datepicker2" /><br />
+            Are you traveling for work? <input type="radio" name="yesorno" value="yes" /> Yes <input type="radio" name="yesorno" value="no" /> No<br />
+            Rooms/ units <input type="number" min="1" max="30" /> Adults <input type="number" min="1" max="30" /> Children <input type="number" min="0" max="10" /><br />
+            <label id="away">
+                <button type="submit">Take me away!</button>
+            </label>
+        </form>
+    </div>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <script src="https://code.jquery.com/ui/1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/"></script>
+</body>
+</html>
