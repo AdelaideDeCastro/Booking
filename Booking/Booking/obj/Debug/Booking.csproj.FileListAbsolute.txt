@@ -1,0 +1,5 @@
+C:\Repository\Booking\Booking\Booking\bin\Booking.dll.config
+C:\Repository\Booking\Booking\Booking\bin\Booking.dll
+C:\Repository\Booking\Booking\Booking\bin\Booking.pdb
+C:\Repository\Booking\Booking\Booking\obj\Debug\Booking.dll
+C:\Repository\Booking\Booking\Booking\obj\Debug\Booking.pdb
